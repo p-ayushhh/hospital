@@ -1,0 +1,196 @@
+## Hospital Management System – Project Requirements
+
+We want to develop a complete and modern **Hospital Management System** using the following technologies:
+
+* **Frontend:** React.js
+* **Backend:** Node.js with Express.js
+* **Database:** PostgreSQL
+
+The website should have a **clean white background**, a modern UI/UX, and a professional healthcare design. We will provide our own **hospital logo**, which should be integrated throughout the website.
+
+### 1. Hospital Introduction
+
+The homepage should include an attractive introduction to the hospital, explaining the hospital's facilities, services, departments, infrastructure, and other important information available to the public.
+
+The system should provide information about **all major hospital facilities and services** so that patients and visitors can easily understand what the hospital offers.
+
+### 2. Doctor Information
+
+There should be a dedicated section displaying all available doctors.
+
+For each doctor, display information such as:
+
+* Doctor's name
+* Profile photo
+* Medical specialization
+* Qualification
+* Experience
+* Department
+* Available days and timings
+* Consultation fee
+* Doctor ID
+* Appointment availability
+
+Patients should be able to easily view doctor details and book an appointment.
+
+### 3. Appointment / Booking System
+
+The website should include a complete **online appointment booking system**.
+
+Patients should be able to:
+
+* Select a department
+* Select a doctor
+* Select an available date
+* Select an available time slot
+* Enter patient information
+* Book an appointment
+* Receive a booking confirmation
+
+The booking system should prevent double-booking of the same doctor and time slot.
+
+### 4. Online Payment
+
+After booking an appointment or hospital service, the patient should be able to make an online payment.
+
+The payment form should include appropriate fields for the transaction and should provide a secure payment workflow.
+
+After successful payment, the system should automatically generate a **payment invoice/receipt** containing:
+
+* Hospital name and logo
+* Invoice number
+* Patient name
+* Patient ID
+* Doctor/service details
+* Appointment date
+* Payment amount
+* Payment method
+* Transaction ID
+* Payment date
+* Invoice status
+
+The invoice should be available for viewing and downloading/printing.
+
+### 5. Ambulance Booking
+
+There should be a dedicated **Ambulance Booking** section.
+
+The public should be able to request an ambulance online by providing information such as:
+
+* Patient name
+* Contact number
+* Pickup location
+* Destination hospital
+* Emergency/non-emergency status
+* Required ambulance type
+* Preferred time
+* Additional requirements
+
+The website should also provide a **map/location feature in the footer or ambulance booking section** so that users can identify or provide their pickup location easily.
+
+### 6. Hospital Employee Information
+
+The system should include an employee management section.
+
+Employee information can include:
+
+* Employee name
+* Employee ID
+* Profile photo
+* Designation
+* Department
+* Qualification
+* Contact information
+* Joining date
+* Work status
+
+Employee IDs should be unique and managed through the backend/database.
+
+### 7. Food Booking / Food Ordering
+
+The website should have a separate **Food Booking** option.
+
+When the user clicks or touches the **Food Booking** option, it should open in a **new tab**.
+
+The new page should contain a complete food menu where patients or visitors can:
+
+* View available food items
+* See food item images
+* View descriptions
+* View prices
+* Select quantity
+* Add items to cart
+* Place an order
+* Enter delivery/location details
+* Make payment
+* Receive an order confirmation/invoice
+
+The food ordering system should be simple and mobile-friendly.
+
+### 8. Footer with Map
+
+The website footer should contain a **Google Maps/location section** showing the hospital's location.
+
+The footer should also include:
+
+* Hospital logo
+* Hospital address
+* Phone number
+* Email address
+* Emergency contact
+* Quick links
+* Appointment booking
+* Ambulance booking
+* Food booking
+* Social media links
+* Hospital services
+
+### 9. Public-Friendly Design
+
+The entire system should be designed so that **any member of the public can easily use it**, even without technical knowledge.
+
+The UI should be:
+
+* Clean
+* Modern
+* Professional
+* Responsive
+* Mobile-friendly
+* Easy to navigate
+* Accessible
+* Fast and user-friendly
+
+Important actions such as **Book Appointment, Call Emergency, Request Ambulance, Make Payment, and Order Food** should be clearly visible.
+
+### 10. Backend & Database
+
+The backend should be developed using **Node.js and Express.js**, with **PostgreSQL** as the database.
+
+The database should manage information such as:
+
+* Patients
+* Doctors
+* Employees
+* Departments
+* Appointments
+* Time slots
+* Ambulances
+* Ambulance bookings
+* Payments
+* Invoices
+* Food items
+* Food orders
+* Users
+* Notifications
+
+The system should have proper authentication, authorization, validation, and secure API handling.
+
+### 11. Overall Goal
+
+The goal is to create a **complete Hospital Management System** that provides all major facilities in one place.
+
+The public should be able to:
+
+**View hospital information → Find doctors → Check qualifications → Book an appointment → Make payment → Receive an invoice → Request an ambulance → Order food → Find hospital location**
+
+The system should provide a smooth and professional experience for **patients, visitors, doctors, employees, and hospital administrators**.

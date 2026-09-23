@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'DM Serif Display', serif;
+  --color-primary: #0A4B78;
+  --color-primary-hover: #0d5f97;
+  --color-accent: #00B4D8;
+  --color-surface: #EBF5FB;
+  --color-danger: #EF4444;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #0A4B78;
+  border-radius: 3px;
+}

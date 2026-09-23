@@ -1,0 +1,10 @@
+{
+  "description": "Enhances and advances user-provided files by applying sophisticated processing to improve functionality and usability for diverse professional needs.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
